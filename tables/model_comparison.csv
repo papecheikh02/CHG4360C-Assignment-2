@@ -1,0 +1,4 @@
+Model,CV RMSE (d^-1),Test MAE (d^-1),Test RMSE (d^-1),Test R2,Best Parameters
+KNN Regression,0.16034576127823325,0.12202926977101294,0.14737855901484226,0.2011213598792555,"{'kneighborsregressor__n_neighbors': 15, 'kneighborsregressor__weights': 'distance'}"
+Polynomial Regression,0.1598722461948126,0.11727833035717261,0.14549699031227156,0.22138956982941427,{'polynomialfeatures__degree': 2}
+Random Forest Regression,0.15452966973116897,0.11790563215487772,0.15166793087750416,0.15394280810367733,"{'max_depth': 8, 'min_samples_leaf': 4, 'n_estimators': 100}"
